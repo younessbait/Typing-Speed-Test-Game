@@ -1,0 +1,183 @@
+:root {
+    --main-color: #2196f3;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.game {
+    background-color: #d1dfeb;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin: 5px 60px;
+}
+
+.name {
+    background-color: #2196f3;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.message {
+    background-color: white;
+    padding: 15px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.message span {
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.message span::before {
+    content: '[  ';
+}
+
+.message span::after {
+    content: '  ]';
+
+}
+
+.start {
+    background-color: #2196f3;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.the-word {
+    background-color: transparent;
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    color: #2196f3;
+    /* !!!!!!!!!!!!!!!!!!!!!!!!! */
+    user-select: none;
+    /* !!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+.input {
+    padding: 10px 26%;
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: none;
+    border: 2px solid #2196f3;
+    color: #2196f3;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.upcoming-words {
+    background-color: white;
+    padding: 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.upcoming-words div {
+    background-color: #2196f3;
+    width: fit-content;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.control {
+    background-color: white;
+    margin: 5px auto;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control span {
+    color: #2196f3;
+    font-weight: bolder;
+}
+
+.finish {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.finish .good {
+    color: rgb(62, 241, 62);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.finish .bad {
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.all {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+.one {
+    background-color: #8ac5f5;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tow {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #50aefc;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.three {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #0a91ff;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+}
